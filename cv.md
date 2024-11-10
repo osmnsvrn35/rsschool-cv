@@ -107,6 +107,22 @@ Bachelor of Computer Science and Information Technology
 - **Node.js Development Course** – RS School (I did not complete)  
   - Gained in-depth knowledge of back-end development using Node.js, with hands-on experience in building scalable server-side applications.
 
+  ## Languages
+
+- **Turkish**: Native language
+- **English**: C1 level
+  - Cambridge KET Certificate (2014)
+  - Vistula University B2 Certificate (scored 88%)
+  - TOEIC: 845/990
+  - Studied university courses in English
+  - Passed Politechnica Warszawska C1 Exam
+- **German**: A1 level 
+  - Studied German for 1 year in high school
+  - Completed a 30-hour German course at university
+- **Polish**: A1 level
+  - Completed a 90-hour Polish course at university
+
+
 
 
 
