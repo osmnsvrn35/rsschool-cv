@@ -53,6 +53,37 @@
     }
 ```
 
+## Experience
+
+### Bulba
+- **Position**: Software Engineer Intern
+- **Duration**: August 2024 - October 2024
+
+#### Key Experiences:
+- Developed a **machine learning data pipeline**, fetching and structuring user data using Instagram Graph API to enable meaningful insights.
+- Created and managed a **PostgreSQL database** to store and process large volumes of public Instagram user data, employing ad hoc methods to optimize data retrieval and storage.
+- Gained hands-on experience in **data design** and **production code** development, enhancing my skills in database management and data-driven applications.
+
+
+### Agent Systems Project: Agent Coalitions
+- Developed a self-organized system using agent-based methodologies with the JADE framework.
+- Gained hands-on experience in Java programming and software development methodologies, such as GAIA.
+
+### Bike Reservation Web Application
+- Built a web application for managing bike reservations using Django.
+- Enhanced front-end skills with HTML and CSS, contributing to a seamless user interface.
+
+### Flat Renting Mobile Application
+- Created a mobile application with backend support and an admin page to facilitate flat rentals.
+- Utilized React Native for front-end development.
+- Integrated various APIs, marking my first experience with backend interactions and API handling.
+
+### AI-Based Face Detection and Age Prediction Project
+- Designed a convolutional neural network (CNN) model using Keras and TensorFlow for facial image classification.
+- Preprocessed a large dataset, addressed class imbalance with SMOTE, and improved model performance through data augmentation.
+- Developed a GUI with Tkinter and OpenCV for real-time face detection and age prediction.
+
+
 
   
 
