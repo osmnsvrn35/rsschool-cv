@@ -20,6 +20,38 @@
 - REST API
 - MS SQL Server
 - PostgreSQL
+## Code Examples
+```cpp
+    vector<int> topKFrequent(vector<int>& nums, int k) {
+        
+        vector<int> res;
+
+        if(nums.empty()){
+            return res;
+        }
+
+        priority_queue<pair<int,int>, vector<pair<int,int>>, greater<pair<int,int>>> pq;
+        unordered_map<int,int> m;
+        for(auto num : nums){
+            m[num]++;
+        }
+
+        for(auto &item : m){
+            pq.push({item.second, item.first});
+            if (pq.size() > k) {
+                pq.pop();
+            }
+        }        
+        
+        while(!pq.empty()) {
+            res.push_back(pq.top().second);
+            pq.pop();
+        }
+
+        reverse(res.begin(), res.end());
+        return res;
+    }
+```
 
 
   
