@@ -84,8 +84,32 @@
 - Developed a GUI with Tkinter and OpenCV for real-time face detection and age prediction.
 
 
+## Education
 
-  
+**Warsaw University of Technology**  
+*2020 - 2025*  
+Bachelor of Computer Science and Information Technology  
+- Studied core programming concepts and software development methodologies.
+- Completed elective courses on:
+  - **Multilayered Applications**: Focused on using React for frontend development.
+  - **Mobile App Development**: Covered full-stack mobile development principles.
+  - **Web Application Development**: Learned HTML, CSS, JavaScript, and Django for building responsive web applications.
+  - **Machine Learning**: Gained foundational skills in ML algorithms and data preprocessing.
+  - **Agent Systems**: Explored agent-based systems and autonomous systems design.
+
+**Additional Online Courses and Certifications**  
+- **Azure Cloud Fundamentals** (Online Learning)  
+  - Acquired foundational skills in cloud computing and Azure services.
+
+- **Hands-on Software Engineering Course** – Kreativstorm  
+  - Developed practical software engineering skills, focusing on hands-on projects and industry practices.
+
+- **Node.js Development Course** – RS School (I did not complete)  
+  - Gained in-depth knowledge of back-end development using Node.js, with hands-on experience in building scalable server-side applications.
+
+
+
+
 
 
 
