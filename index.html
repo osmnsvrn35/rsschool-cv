@@ -163,7 +163,7 @@ vector&lt;int&gt; topKFrequent(vector&lt;int&gt;&amp; nums, int k) {
         m[num]++;
     }
 
-    for (auto& item : m) {
+    for (auto&amp; item : m) {
         pq.push({item.second, item.first});
         if (pq.size() &gt; k) {
             pq.pop();
