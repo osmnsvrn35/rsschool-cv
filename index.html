@@ -3,44 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
-
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#languages">Languages</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Osman Can SAVRAN</h1>
+    </header>
 
-    <div class="container">
-        <header>
-            <img src="profile-pic.jpg" alt="Profile Picture">
-            <div>
-                <nav>
-                <h1>Osman Can SAVRAN</h1>
-                <div class="contact-info">
-                    <p>Email: osmancansavran@gmail.com</p>
-                    <p>LinkedIn: <a href="https://www.linkedin.com/in/osman-can-savran-bb90721ba">https://www.linkedin.com/in/osman-can-savran-bb90721ba</a></p>
-                    <p>Phone: +48 575 065 xxx</p>
-                </div>
-            </nav>
-            </div>
-        </header>
+    <main>
+        <section class="left-column">
+        
+            <article class="image-section">
+                <img src="your-photo.jpg" alt="Osman Can SAVRAN" class="profile-image">
+            </article>
 
-        <main>
-            <section>
-                <h2>Summary</h2>
+            <article class="contact-section">
+                <h2>Contact</h2>
                 <ul>
-                    <li>Passionate about becoming a full-stack developer with a strong interest in the architecture and design of web applications.</li>
-                    <li>Engaged in learning both front-end and back-end technologies to understand the full development process.</li>
-                    <li>Enjoy solving algorithmic problems on LeetCode, sharpening my skills in data structures and efficient coding.</li>
-                    <li>Driven to build efficient, scalable applications by deepening my knowledge of technology stacks and software architecture.</li>
+                    <li>Email: osmancansavran@gmail.com</li>
+                    <li>LinkedIn: <a href="https://www.linkedin.com/in/osman-can-savran-bb90721ba">My LinkedIn Profile</a></li>
+                    <li>Phone: +48 575 065 xxx</li>
                 </ul>
-            </section>
+            </article>
 
-            <section>
-                <h2>Skills</h2>
+            <article class="languages-section">
+                <h2>Languages</h2>
                 <ul>
-                    <li>C, C++, C# PROGRAMMING LANGUAGES</li>
+                    <li>Turkish: Native</li>
+                    <li>English: C1 level</li>
+                    <li>German: A1 level</li>
+                    <li>Polish: A1 level</li>
+                </ul>
+            </article>
+
+            <article class="skills-section">
+                <h2>Technical Skills</h2>
+                <ul>
+                    <li>C, C++, C# Programming Languages</li>
                     <li>Python</li>
-                    <li>HTML, CSS, Javascript</li>
+                    <li>HTML, CSS, JavaScript</li>
                     <li>React</li>
                     <li>Django</li>
                     <li>Git</li>
@@ -50,121 +62,43 @@
                     <li>MS SQL Server</li>
                     <li>PostgreSQL</li>
                 </ul>
+            </article>
+        </section>
+
+        <section class="right-column">
+           
+            <section id="about">
+                <h2>About Me</h2>
+                <p>Provide details about yourself here...</p>
             </section>
 
-            <section>
-                <h2>Code Examples</h2>
-                <pre>
-                <code>
-                    
-                    ```cpp
-                    vector<int> topKFrequent(vector<int>& nums, int k) {
-                        
-                        vector<int> res;
-                
-                        if(nums.empty()){
-                            return res;
-                        }
-                
-                        priority_queue<pair<int,int>, vector<pair<int,int>>, greater<pair<int,int>>> pq;
-                        unordered_map<int,int> m;
-                        for(auto num : nums){
-                            m[num]++;
-                        }
-                
-                        for(auto &item : m){
-                            pq.push({item.second, item.first});
-                            if (pq.size() > k) {
-                                pq.pop();
-                            }
-                        }        
-                        
-                        while(!pq.empty()) {
-                            res.push_back(pq.top().second);
-                            pq.pop();
-                        }
-                
-                        reverse(res.begin(), res.end());
-                        return res;
-                    }
-                ```
-                    
-                </code>
-            </pre>
-            </section>
-
-            <section>
+            <section id="experience">
                 <h2>Experience</h2>
-                <div>
-                    <h3>Bulba</h3>
-                    <p><strong>Position:</strong> Software Engineer Intern</p>
-                    <p><strong>Duration:</strong> August 2024 - October 2024</p>
-                    <p><strong>Key Experiences:</strong></p>
-                    <ul>
-                        <li>Developed a machine learning data pipeline using Instagram Graph API.</li>
-                        <li>Created and managed a PostgreSQL database for user data processing.</li>
-                        <li>Gained hands-on experience in data design and production code development.</li>
-                    </ul>
-                </div>
-                <div>
-                    <h3>Agent Systems Project: Agent Coalitions</h3>
-                    <ul>
-                        <li>Developed a self-organized system using agent-based methodologies with the JADE framework.</li>
-                        <li>Gained hands-on experience in Java programming and software development methodologies like GAIA.</li>
-                    </ul>
-                </div>
-                <div>
-                    <h3>Bike Reservation Web Application</h3>
-                    <ul>
-                        <li>Built a web application for managing bike reservations using Django.</li>
-                        <li>Enhanced front-end skills with HTML and CSS.</li>
-                    </ul>
-                </div>
-                <div>
-                    <h3>Flat Renting Mobile Application</h3>
-                    <ul>
-                        <li>Created a mobile application with backend support for flat rentals using React Native.</li>
-                        <li>Integrated various APIs for backend interactions.</li>
-                    </ul>
-                </div>
-                <div>
-                    <h3>AI-Based Face Detection and Age Prediction Project</h3>
-                    <ul>
-                        <li>Designed a CNN model for facial image classification using Keras and TensorFlow.</li>
-                        <li>Developed a GUI with Tkinter and OpenCV for real-time face detection.</li>
-                    </ul>
-                </div>
-            </section>
-
-            <section>
-                <h2>Education</h2>
-                <div>
-                    <h3>Warsaw University of Technology</h3>
-                    <p><strong>2020 - 2025</strong></p>
-                    <p>Bachelor of Computer Science and Information Technology</p>
-                    <ul>
-                        <li>Multilayered Applications (React for front-end development)</li>
-                        <li>Mobile App Development (Full-stack mobile development)</li>
-                        <li>Machine Learning (Foundational skills in ML algorithms)</li>
-                    </ul>
-                </div>
-            </section>
-
-            <section>
-                <h2>Languages</h2>
                 <ul>
-                    <li><strong>Turkish:</strong> Native</li>
-                    <li><strong>English:</strong> C1 level</li>
-                    <li><strong>German:</strong> A1 level</li>
-                    <li><strong>Polish:</strong> A1 level</li>
+                    <li>
+                        <h3>Bulba</h3>
+                        <p><strong>Position</strong>: Software Engineer Intern</p>
+                        <p><strong>Duration</strong>: August 2024 - October 2024</p>
+                        <p><strong>Key Experiences</strong>:
+                            - Developed a machine learning data pipeline...
+                            - Managed a PostgreSQL database...
+                        </p>
+                    </li>
+                    
                 </ul>
             </section>
-        </main>
 
-        <footer>
-            <p>&copy; 2024 Osman Can SAVRAN. All rights reserved.</p>
-        </footer>
-    </div>
-
+            <section id="education">
+                <h2>Education</h2>
+                <p><strong>Warsaw University of Technology</strong> <br> *2020 - 2025* <br> Bachelor of Computer Science and Information Technology</p>
+                <ul>
+                    <li>Multilayered Applications</li>
+                    <li>Mobile App Development</li>
+                    <li>Web Application Development</li>
+                    
+                </ul>
+            </section>
+        </section>
+    </main>
 </body>
 </html>
