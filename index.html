@@ -149,14 +149,14 @@
 
                 <section id="code-examples">
                     <h2>Code Examples</h2>
-                    <pre>                   
+                    <pre>
     <code>vector&lt;int&gt; topKFrequent(vector&lt;int&gt;&amp; nums, int k) {
     vector&lt;int&gt; res;
-    
+
     if (nums.empty()) {
         return res;
     }
-    
+
     priority_queue&lt;pair&lt;int, int&gt;, vector&lt;pair&lt;int, int&gt;&gt;, greater&lt;pair&lt;int, int&gt;&gt;&gt; pq;
     unordered_map&lt;int, int&gt; m;
     for (auto num : nums) {
@@ -225,5 +225,4 @@
         </div>
     </footer>
 </body>
-
 </html>
