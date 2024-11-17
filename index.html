@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Osman Can SAVRAN - CV</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <nav>
@@ -20,7 +22,7 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-        
+
     </header>
 
     <main>
@@ -29,7 +31,7 @@
                 <figure class="image-figure">
                     <img src="./images/me.jpeg" alt="Osman Can SAVRAN" class="profile-image">
                 </figure>
-                
+
                 <section id="contact">
                     <h2>Contact</h2>
                     <ul>
@@ -38,7 +40,7 @@
                         <li>Phone: +48 575 065 xxx</li>
                     </ul>
                 </section>
-                
+
                 <section id="languages">
                     <h2>Languages</h2>
                     <ul>
@@ -65,7 +67,7 @@
                         </li>
                     </ul>
                 </section>
-                
+
                 <section id="skills">
                     <h2>Technical Skills</h2>
                     <ul>
@@ -80,6 +82,124 @@
                         <li>REST API</li>
                         <li>MS SQL Server</li>
                         <li>PostgreSQL</li>
+
+                    </ul>
+                </section>
+            </div>
+
+            <div class="right-column">
+                <section id="name">
+                    <h1>Osman Can SAVRAN</h1>
+                    <h2>Software Engineer</h2>
+                </section>
+
+                <section id="about">
+                    <h2>About Me</h2>
+                    <p>Passionate about becoming a full-stack developer with a strong interest in the architecture and design of web applications. Engaged in learning both front-end and back-end technologies to understand the full development process. Enjoy solving algorithmic problems on LeetCode, sharpening my skills in data structures and efficient coding. Driven to build efficient, scalable applications by deepening my knowledge of technology stacks and software architecture.</p>
+                </section>
+
+                <section id="experience">
+                    <h2>Experience</h2>
+                    <ul>
+                        <li>
+                            <h3>Bulba</h3>
+                            <p><strong>Position</strong>: Software Engineer Intern</p>
+                            <p><strong>Duration</strong>: August 2024 - October 2024</p>
+                            <p><strong>Key Experiences</strong>:</p>
+                            <ul>
+                                <li>Developed a machine learning data pipeline, fetching and structuring user data using Instagram Graph API to enable meaningful insights.</li>
+                                <li>Created and managed a PostgreSQL database to store and process large volumes of public Instagram user data, employing ad hoc methods to optimize data retrieval and storage.</li>
+                                <li>Gained hands-on experience in data design and production code development, enhancing my skills in database management and data-driven applications.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h3>Agent Systems Project: Agent Coalitions</h3>
+                            <p><strong>Key Experiences</strong>:</p>
+                            <ul>
+                                <li>Developed a self-organized system using agent-based methodologies with the JADE framework.</li>
+                                <li>Gained hands-on experience in Java programming and software development methodologies, such as GAIA.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h3>Bike Reservation Web Application</h3>
+                            <p><strong>Key Experiences</strong>:</p>
+                            <ul>
+                                <li>Built a web application for managing bike reservations using Django.</li>
+                                <li>Enhanced front-end skills with HTML and CSS, contributing to a seamless user interface.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h3>Flat Renting Mobile Application</h3>
+                            <p><strong>Key Experiences</strong>:</p>
+                            <ul>
+                                <li>Created a mobile application with backend support and an admin page to facilitate flat rentals.</li>
+                                <li>Utilized React Native for front-end development.</li>
+                                <li>Integrated various APIs, marking my first experience with backend interactions and API handling.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h3>AI-Based Face Detection and Age Prediction Project</h3>
+                            <p><strong>Key Experiences</strong>:</p>
+                            <ul>
+                                <li>Designed a convolutional neural network (CNN) model using Keras and TensorFlow for facial image classification.</li>
+                                <li>Preprocessed a large dataset, addressed class imbalance with SMOTE, and improved model performance through data augmentation.</li>
+                                <li>Developed a GUI with Tkinter and OpenCV for real-time face detection and age prediction.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+
+                <section id="code-examples">
+                    <h2>Code Examples</h2>
+                    <pre>
+    <code>vector&lt;int&gt; topKFrequent(vector&lt;int&gt;&amp; nums, int k) {
+    vector&lt;int&gt; res;
+
+    if (nums.empty()) {
+        return res;
+    }
+
+    priority_queue&lt;pair&lt;int, int&gt;, vector&lt;pair&lt;int, int&gt;&gt;, greater&lt;pair&lt;int, int&gt;&gt;&gt; pq;
+    unordered_map&lt;int, int&gt; m;
+    for (auto num : nums) {
+        m[num]++;
+    }
+
+    for (auto; item : m) {
+        pq.push({item.second, item.first});
+        if (pq.size() &gt; k) {
+            pq.pop();
+        }
+    }
+
+    while (!pq.empty()) {
+        res.push_back(pq.top().second);
+        pq.pop();
+    }
+
+    reverse(res.begin(), res.end());
+    return res;
+}</code></pre>
+                </section>
+
+                <section id="education">
+                    <h2>Education</h2>
+                    <p><strong>Warsaw University of Technology</strong><br> *2020 - 2025* <br> Bachelor of Computer Science and Information Technology</p>
+                    <ul>
+                        <li>Studied core programming concepts and software development methodologies.</li>
+                        <li>Completed elective courses on:
+                            <ul>
+                                <li><strong>Multilayered Applications</strong>: Focused on using React for frontend development.</li>
+                                <li><strong>Mobile App Development</strong>: Covered full-stack mobile development principles.</li>
+                                <li><strong>Web Application Development</strong>: Learned HTML, CSS, JavaScript, and Django for building responsive web applications.</li>
+                                <li><strong>Machine Learning</strong>: Gained foundational skills in ML algorithms and data preprocessing.</li>
+                                <li><strong>Agent Systems</strong>: Explored agent-based systems and autonomous systems design.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+
+
                     </ul>
                 </section>
                
@@ -208,6 +328,7 @@
                     </ul>
                 </section>
                 
+
                 <section id="additional-courses">
                     <h2>Additional Online Courses and Certifications</h2>
                     <ul>
@@ -228,10 +349,18 @@
             </div>
         </div>
     </main>
+
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Osman Can SAVRAN | <a href="https://github.com/osmnsvrn35">GitHub</a></p>
+            <p><a href="https://rs.school/courses/javascript"><img src="./images/logo.jpeg" alt="Course Logo" class="course-logo"></a></p>
+
     <footer>
         <div class="footer-content">
             <p>&copy; 2024 Osman Can SAVRAN | <a href="https://github.com/osmnsvrn35" >GitHub</a></p>
             <p><a href="https://rs.school/courses/javascript" ><img src="./images/logo.jpeg" alt="Course Logo" class="course-logo"></a></p>
+
         </div>
     </footer>
 </body>

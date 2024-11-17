@@ -1,7 +1,7 @@
 # Osman Can SAVRAN
 ## Contact
 **Email:** osmancansavran@gmail.com\
-**LinkedIn:** [https://www.linkedin.com/in/osman-can-savran-bb90721ba](https://www.linkedin.com/in/osman-can-savran-bb90721ba)  
+**LinkedIn:** [https://www.linkedin.com/in/osman-can-savran-bb90721ba](https://www.linkedin.com/in/osman-can-savran-bb90721ba)
 **Phone:** +48 575 065 xxx
 ## Summary
 - Passionate about becoming a full-stack developer with a strong interest in the architecture and design of web applications.
@@ -12,7 +12,7 @@
 - C, C++, C# PROGRAMMING LANGAUGES
 - Python
 - Html, CSS, Javascript
-- React 
+- React
 - Django
 - Git
 - Java
@@ -23,7 +23,7 @@
 ## Code Examples
 ```cpp
     vector<int> topKFrequent(vector<int>& nums, int k) {
-        
+
         vector<int> res;
 
         if(nums.empty()){
@@ -41,8 +41,8 @@
             if (pq.size() > k) {
                 pq.pop();
             }
-        }        
-        
+        }
+
         while(!pq.empty()) {
             res.push_back(pq.top().second);
             pq.pop();
@@ -86,9 +86,9 @@
 
 ## Education
 
-**Warsaw University of Technology**  
-*2020 - 2025*  
-Bachelor of Computer Science and Information Technology  
+**Warsaw University of Technology**
+*2020 - 2025*
+Bachelor of Computer Science and Information Technology
 - Studied core programming concepts and software development methodologies.
 - Completed elective courses on:
   - **Multilayered Applications**: Focused on using React for frontend development.
@@ -97,14 +97,14 @@ Bachelor of Computer Science and Information Technology
   - **Machine Learning**: Gained foundational skills in ML algorithms and data preprocessing.
   - **Agent Systems**: Explored agent-based systems and autonomous systems design.
 
-**Additional Online Courses and Certifications**  
-- **Azure Cloud Fundamentals** (Online Learning)  
+**Additional Online Courses and Certifications**
+- **Azure Cloud Fundamentals** (Online Learning)
   - Acquired foundational skills in cloud computing and Azure services.
 
-- **Hands-on Software Engineering Course** – Kreativstorm  
+- **Hands-on Software Engineering Course** – Kreativstorm
   - Developed practical software engineering skills, focusing on hands-on projects and industry practices.
 
-- **Node.js Development Course** – RS School (I did not complete)  
+- **Node.js Development Course** – RS School (I did not complete)
   - Gained in-depth knowledge of back-end development using Node.js, with hands-on experience in building scalable server-side applications.
 
   ## Languages
@@ -116,7 +116,7 @@ Bachelor of Computer Science and Information Technology
   - TOEIC: 845/990
   - Studied university courses in English
   - Passed Politechnica Warszawska C1 Exam
-- **German**: A1 level 
+- **German**: A1 level
   - Studied German for 1 year in high school
   - Completed a 30-hour German course at university
 - **Polish**: A1 level
