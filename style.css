@@ -1,0 +1,101 @@
+/* Header styling */
+header {
+    background-color: #333; 
+    padding: 10px 0; 
+}
+
+nav ul {
+    list-style-type: none; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 15px; 
+}
+
+nav ul li a {
+    text-decoration: none; 
+    color: white; 
+    font-size: 24px; 
+}
+
+/* Main container */
+main {
+    display: flex; 
+    padding: 20px; 
+}
+
+/* Left column styling */
+.left-column {
+    flex: 1; 
+    margin-right: 20px; 
+    padding: 20px; 
+    background-color: #f4f4f4; 
+    border-radius: 8px; 
+}
+
+/* Profile image styling */
+.profile-image {
+    width: 100%; 
+    max-width: 200px;
+    height: auto; 
+    margin-bottom: 20px;
+}
+
+/* Section headings */
+h2 {
+    margin-bottom: 10px; 
+    font-size: 22px; 
+    color: #333; 
+}
+
+/* Lists within sections */
+ul {
+    list-style-type: none; 
+    margin-left: 20px; 
+}
+
+ul li {
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #444;
+}
+
+ul li a {
+    color: #333; 
+    text-decoration: none; 
+}
+
+ul ul {
+    margin-left: 20px; 
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white; 
+    padding: 20px 0;
+    text-align: center; 
+}
+
+.footer-content p {
+    margin-bottom: 10px; 
+    font-size: 16px; 
+}
+
+.footer-content a {
+    text-decoration: none; 
+}
+
+.footer-content a:hover {
+    text-decoration: underline; 
+}
+
+.course-logo {
+    width: 40px; 
+    height: auto; 
+    margin-top: 10px; 
+}
+
